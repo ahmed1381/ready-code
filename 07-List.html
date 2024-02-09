@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List</title>
+
+    <style>
+
+        body {
+            max-width: 70rem;
+            margin: auto;
+            font-family: sans-serif;
+        }
+
+        a:link,
+        a:visited {
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #095bf3;
+        }
+
+        a:hover,
+        a:active {
+            display: flex;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #fff;
+            background-color: #095bf3;
+            padding: 0.5rem;
+            justify-content: center;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+
+        .List {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+        }
+
+        .List:active {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+        }
+
+        .btn-mobile-nav {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+
+        .icon-mobile-nav {
+            width: 2rem;
+            height: 2rem;
+            color: #333;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<span class="List">
+    <div> <a href="#">Home</a> </div>
+    <div> <a href="#">Account</a> </div>
+    <div> <a href="#">About</a> </div>
+    <div> <a href="#">Content</a> </div>
+    <div> <a href="#">Cart</a> </div>
+
+    <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+</span>
+
+</body>
+</html>
